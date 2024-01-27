@@ -6,11 +6,27 @@ This is a Django REST framework (DRF) project that provides an API for managing 
 
 ## Features
 
-- Create, retrieve, update, and delete books
-- View details of authors
-- Automatic generation of book_id based on creation time
-- Prevent creation of books with the same name and author
-- ...
+- **Superuser Authentication:**
+  - Secure API access using superuser credentials with Basic Auth.
+
+- **Authors:**
+  - CRUD operations.
+  - Search functionality for listing page.
+  - Pagination support for listing page.
+  - Detailed view for a specific author.
+  
+- **Books:**
+  - CRUD operations.
+  - Automatic generation of book_id based on creation time.
+  - Prevent creation of books with the same Book name.
+  - Search functionality for listing page.
+  - Pagination support for listing page.
+  - Detailed view for a specific book.
+  
+- **Book-Author Mapping:**
+  - CRUD operations, with mapping to respective authors.
+  - Assign multiple books to one author.
+
 
 ## Installation
 
