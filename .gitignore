@@ -1,0 +1,9 @@
+.env
+*env
+user_auth/__pycache__
+author/__pycache__
+books/__pycache__
+library_main/__pycache__
+author/migrations/__pycache__
+books/migrations/__pycache__
+user_auth/migrations/__pycache__
