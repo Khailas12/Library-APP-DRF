@@ -90,8 +90,8 @@ DATABASES = {
 }
 ```
 ---
-### or 
-### If the ```PostgreSQL``` is not required then please Uncomment the Sqlite Database's code instead in the ```settings.py``` 
+#### or 
+#### If the ```PostgreSQL``` is not required then please Uncomment the Sqlite Database's code instead in the ```settings.py``` 
 ---
 
 ### 6. Apply database migrations:
